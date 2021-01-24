@@ -38,7 +38,6 @@ function firstNonRepeating($str)
 return $index; 
 } 
   
-// Driver code 
 $str = "abcababa"; 
 $index = firstNonRepeating($str); 
 if($index == -1) 
@@ -49,6 +48,5 @@ echo "First non-repeating ".
             "character is ". 
                $str[$index]; 
   
-// This code is contributed by mits 
 ?> 
 </html>
